@@ -13,11 +13,39 @@ main {
 }
 header {
     text-align: center;
+    padding: 30px 0;
 }
-section {
+header h1 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-section table {
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0;
+}
+table {
     background-color: white;
-    width: 500px;
+    border-spacing: 0;
+    width: 700px;
     margin: 0 auto;
+}
+table th {
+    background-color: rgb(230, 230, 230);
+    border: 1px solid rgb(126, 126, 126);
+    padding: 4px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+table td {
+    border: 1px solid rgb(126, 126, 126);
+    padding: 3px;
+}
+.code {
+    background-color: rgb(230, 230, 230);
+    padding: 2px;
+    font-family: monospace;
+    color: blue;
 }
